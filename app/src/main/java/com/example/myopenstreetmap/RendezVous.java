@@ -11,14 +11,14 @@ public class RendezVous {
     private String nom;
     private ArrayList<Message> participants;
     private ArrayList<String> messages;
-    private Date date;
+    private String date;
     private String lieu;
     private double Lat;
     private double Long;
 
     MainActivity main = new MainActivity();
 
-    public RendezVous(String nom, Date date, String lieu, Double Lat, Double Long){
+    public RendezVous(String nom, String date, String lieu, Double Lat, Double Long){
         this.id = ++id;
         this.nom = nom;
         this.date = date;
@@ -51,8 +51,32 @@ public class RendezVous {
         return this.nom;
     }
 
-    public ArrayList getconversation(){
-        return this.messages;
+    public String getNom() {
+        return nom;
+    }
+
+    public ArrayList<Message> getParticipants() {
+        return participants;
+    }
+
+    public ArrayList<String> getMessages() {
+        return messages;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getLieu() {
+        return lieu;
+    }
+
+    public double getLat() {
+        return Lat;
+    }
+
+    public double getLong() {
+        return Long;
     }
 
 
