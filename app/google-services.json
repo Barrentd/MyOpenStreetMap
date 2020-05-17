@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "786309057704",
+    "firebase_url": "https://myopenstreetmap.firebaseio.com",
+    "project_id": "myopenstreetmap",
+    "storage_bucket": "myopenstreetmap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786309057704:android:3a0f2d484618f6a2ea469d",
+        "android_client_info": {
+          "package_name": "com.example.myopenstreetmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786309057704-4g478425688pt3c891962tumh8ananp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEG9Lt-IclHbVU7VBT00Hsy5jGuNCKsXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786309057704-4g478425688pt3c891962tumh8ananp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
